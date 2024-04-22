@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/login.css">
+  <title>Login Page</title>
+</head>
+<body>
+
+  <div id="particles-js"></div>
+  
+  <div class="animated bounceInDown">
+
+  <div class="container">
+    <span class="error animated tada" id="msg"></span>
+    <div class="login-container">
+        <form name="form1" class="box" method="post" onsubmit="return checkStuff()">
+            <h4>Alghaniyu<span>Quran</span></h4>
+            <h5>Sign in to your account.</h5>
+       
+          
+          <input type="text" name="username" id="username" class="input-text" placeholder="Username" autocomplete="off">
+          <input type="password" name="password" id="pwd" class="input-text" placeholder="Password" autocomplete="off">
+         
+       
+        <div id="msg"></div>
+        <input type="submit" value="Sign in" class="btn1" onclick="myfunction()">
+        <br><br>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
